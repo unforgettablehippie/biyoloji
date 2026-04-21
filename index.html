@@ -315,7 +315,7 @@ footer { text-align: center; padding: 24px; font-size: 0.74rem; color: #bbb; let
 <!-- TAKSONOMİK AĞAÇ -->
 <div id="tree">
   <h2>Yaşam Ağacı</h2>
-  <p class="tree-sub">Her türün evrimsel yolculuğunu keşfedin — aynı daldan gelen akrabalar birlikte gösterilir</p>
+  <p class="tree-sub">Türlerin taksonomik sınıflandırması</p>
   <div class="rank-legend">
     <span class="rank-pill rank-alem">Alem</span>
     <span style="color:#aaa;line-height:2">›</span>
@@ -352,7 +352,7 @@ const canlılar = [
       aile:  "Leuciscidae",
       cins:  "Alburnus",
     },
-    bilgi: "Van Gölü'ne özgü tatlı su balığı. Göl ekosisteminin kilit türü olup binlerce yıldır bu sularda evrimleşmiştir."
+    bilgi: "Van Gölü'ne özgü tatlı su balığı. Kefal denmesine rağmen aslında sazangillerdendir."
   },
   {
     ad: "Antalya Kara Semenderi", latin: "Lyciasalamandra antalyana", tür: "hayvan",
@@ -361,11 +361,11 @@ const canlılar = [
       alem:  "Animalia",
       sube:  "Chordata",
       sinif: "Amphibia",
-      takim: "Urodela",
+      takim: "Caudata",
       aile:  "Salamandridae",
       cins:  "Lyciasalamandra",
     },
-    bilgi: "Antalya kıyı şeridi ve dağ yamaçlarına özgü kara semenderi. Yavrusunu doğrudan doğurur; ıslak ortamlara bağımlı değildir."
+    bilgi: "Antalya kıyı şeridi ve dağ yamaçlarına özgü kara semenderidir."
   },
   {
     ad: "Anadolu Semenderi", latin: "Triturus anatolicus", tür: "hayvan",
@@ -374,11 +374,11 @@ const canlılar = [
       alem:  "Animalia",
       sube:  "Chordata",
       sinif: "Amphibia",
-      takim: "Urodela",
+      takim: "Caudata",
       aile:  "Salamandridae",
       cins:  "Triturus",
     },
-    bilgi: "Batı Anadolu'nun nemli orman ve sulak alanlarında yaşar. Üreme döneminde erkeğin tepesinde belirgin bir ibik oluşur."
+    bilgi: "Batı Anadolu'nun nemli orman ve sulak alanlarında yaşar."
   },
   {
     ad: "Anadolu Kaya Kertenkelesi", latin: "Anatololacerta anatolica", tür: "hayvan",
@@ -391,7 +391,7 @@ const canlılar = [
       aile:  "Lacertidae",
       cins:  "Anatololacerta",
     },
-    bilgi: "Anadolu'ya özgü kaya kertenkele cinsi. Kayalık bozkır habitatını tercih eder; böcek ve küçük omurgasızlarla beslenir."
+    bilgi: "Anadolu'ya özgü kaya kertenkele cinsi. Kayalık bozkır habitatını tercih eder, böcek ve küçük omurgasızlarla beslenir."
   },
   {
     ad: "Kayseri Kertenkelesi", latin: "Apathya cappadocica", tür: "hayvan",
@@ -404,7 +404,7 @@ const canlılar = [
       aile:  "Lacertidae",
       cins:  "Apathya",
     },
-    bilgi: "Kapadokya ve çevresinin volkanik kayalıklarına özgüdür. Sert, kurak Anadolu platosuna uyum sağlamıştır."
+    bilgi: "Kapadokya ve çevresinin volkanik kayalıklarına özgüdür."
   },
   {
     ad: "Kazdağı Göknarı", latin: "Abies nordmanniana subsp. equi-trojani", tür: "bitki",
@@ -417,7 +417,7 @@ const canlılar = [
       aile:  "Pinaceae",
       cins:  "Abies",
     },
-    bilgi: "Kazdağları'nın ikonik göknarı; Türkiye'nin en önemli endemik ağaçlarından. Gür orman örtüsüyle bölgenin su rejimini düzenler."
+    bilgi: "Kazdağları'nın ikonik göknarı; Türkiye'nin en önemli endemik ağaçlarından. Bölgenin su rejimini düzenler."
   },
   {
     ad: "Ankara Çiğdemi", latin: "Crocus ancyrensis", tür: "bitki",
@@ -430,7 +430,7 @@ const canlılar = [
       aile:  "Iridaceae",
       cins:  "Crocus",
     },
-    bilgi: "Ankara ve çevresinin step alanlarında ilkbaharda ilk açan bitkilerden. Turuncu-sarı çiçekleriyle endemik bir çiğdem türüdür."
+    bilgi: "Ankara ve çevresinin steplerinde ilkbaharda ilk açan bitkilerdendir. Endemik bir çiğdem türüdür."
   },
   {
     ad: "Çuh Lalesi", latin: "Tulipa koyuncui", tür: "bitki",
@@ -443,7 +443,7 @@ const canlılar = [
       aile:  "Liliaceae",
       cins:  "Tulipa",
     },
-    bilgi: "Güneydoğu Anadolu'nun taşlık step yamaçlarına özgü ender bir lale. Kırmızı-sarı renk geçişiyle dikkat çeker."
+    bilgi: "Güneydoğu Anadolu'nun taşlık step yamaçlarına özgü nadir bir laledir."
   },
   {
     ad: "Altınlale", latin: "Tulipa armena var. galatica", tür: "bitki",
@@ -456,7 +456,7 @@ const canlılar = [
       aile:  "Liliaceae",
       cins:  "Tulipa",
     },
-    bilgi: "İç Anadolu steplerinde yetişen altın sarısı lale varyantı. Tulipa cinsi içinde aynı aileden olan Çuh Lalesi ile yakın akrabadır."
+    bilgi: "İç Anadolu steplerinde yetişen altın sarısı lale varyantı. Kendisiyle aynı aileden ve cinsten olan Çuh Lalesi ile yakın akrabadır."
   },
 ];
 
